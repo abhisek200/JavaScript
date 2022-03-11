@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>
+            This is my learn javascript
+        </title>
+    </head>
+    <body>
+        <h1>
+            We are going to learn javascript in one video!
+        </h1>
+        <h2>
+            What is javascript?!
+        </h2>
+        <p>
+            Javascript is a start lets see how far you can move along.
+        </p>
+        <hr>
+        
+        <h1 id="my-content1"></h1>
+        
+        <br>
+        <h2 id="change-content-heading"> YOURe beautiful</h2>
+        <button onclick="changeContent()">Change?</button>
+
+        <br> <br> <br>
+        <script src="start.js"></script>
+        <br>    
+        <script>   
+            document.write("This is my start with java script")
+            document.write("<h2>this is my second line from java script</h2>")
+
+            document.getElementById("my-content1").innerHTML = "THIS IS DYNAMIC CONTENT" //to get the reference
+            
+            function changeContent(){
+                // alert("test")
+
+                var element = document.getElementById("change-content-heading")
+                element.innerHTML= "ok youre BEAUTI-FOOL"
+
+                element.style.display = "block"
+                element.style.color = 'red'
+                element.style.backgroundColor = 'yellow'
+
+                document.body.style.backgroundColor = 'green'
+
+            }
+        
+        
+        </script>
+    
+    </body>
+</html>
