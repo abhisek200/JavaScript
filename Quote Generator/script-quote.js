@@ -66,8 +66,6 @@ function newQuote() {
 
 
 
-
-
 // Tweet Quote
 function tweetQuote() {
     const twitterURL = `https://twitter.com/intent/tweet?text=${quoteText.textContent} - ${authorText.textContent}`;
